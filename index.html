@@ -39,7 +39,7 @@
 
     <div class="snare-track">
         <div class="control">
-         <h1>kick</h1>
+         <h1>snare</h1>
          <button data-track="1" class="mute snare-volume">
             <i class="fas fa-volume-mute"></i>
          </button><!--data track=0 is basically an identification so we can know through java script that 
@@ -60,12 +60,12 @@
             <div class="pad snare-pad b5"></div>
             <div class="pad snare-pad b6"></div>
             <div class="pad snare-pad b7"></div>
-            
+
         </div>
     </div>
     <div class="hihat-track">
         <div class="control">
-         <h1>kick</h1>
+         <h1>hihat</h1>
          <button data-track="2" class="mute hihat-volume">
             <i class="fas fa-volume-mute"></i>
          </button><!--data track=0 is basically an identification so we can know through java script that 
@@ -93,6 +93,9 @@
 
 </div>
 <button class="play">play</button>
+<audio src="./allSounds/kick-classic.wav" class="kick-sound"></audio>
+<audio src="./allSounds/snare-acoustic01.wav" class="snare-sound"></audio>
+<audio src="./allSounds/hihat-acoustic01.wav" class="hihat-sound"></audio>
 
 
 
@@ -104,7 +107,7 @@
 
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous"></script>
-    <script src="./app.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="./app.js"></script>
 </body>
 </html>
