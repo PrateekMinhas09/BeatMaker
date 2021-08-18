@@ -19,14 +19,38 @@ svg {
   cursor: pointer;
 }
 .kick-pad {
-  background: red;
+  background: rgb(175, 236, 198);
 }
 .snare-pad {
-  background: red;
+  background: rgb(184, 175, 236);
 }
 .hihat-pad {
-  background: red;
+  background: rgb(236, 175, 226);
 }
-.play {
-  background-color: red;
+
+.hihat,
+.kick,
+.snare {
+  display: flex;
+}
+
+.hihat-track,
+.kick-track,
+.snare-track {
+  display: flex;
+  align-items: center;
+  width: 70%;
+
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+.sequencer {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.control {
+  display: flex;
 }
