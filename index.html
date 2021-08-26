@@ -7,11 +7,12 @@
     
     <title>BeatMaker</title>
     <link rel="stylesheet" href="./style.css" type="text/css" >
+    <link rel="shortcut icon" href="#">
 </head>
 <body>
 <div class="sequencer">
     <div class="kick-track">
-        <div class="control">
+        <div class="controls">
          <h1>kick</h1>
          <button data-track="0" class="mute kick-volume">
             <i class="fas fa-volume-mute"></i>
@@ -39,7 +40,7 @@
 
 
     <div class="snare-track">
-        <div class="control">
+        <div class="controls">
          <h1>snare</h1>
          <button data-track="1" class="mute snare-volume">
             <i class="fas fa-volume-mute"></i>
@@ -65,7 +66,7 @@
         </div>
     </div>
     <div class="hihat-track">
-        <div class="control">
+        <div class="controls">
          <h1>hihat</h1>
          <button data-track="2" class="mute hihat-volume">
             <i class="fas fa-volume-mute"></i>
@@ -91,9 +92,10 @@
             
         </div> 
     </div>
-
+    <button class="play">play</button>
 </div>
-<button class="play">play</button>
+
+
 <audio src="./allSounds/kick-classic.wav" class="kick-sound"></audio>
 <audio src="./allSounds/snare-acoustic01.wav" class="snare-sound"></audio>
 <audio src="./allSounds/hihat-acoustic01.wav" class="hihat-sound"></audio>

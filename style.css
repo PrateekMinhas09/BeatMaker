@@ -27,7 +27,15 @@ svg {
 .hihat-pad {
   background: rgb(236, 175, 226);
 }
-
+.kick-pad.active {
+  background: rgb(116, 211, 152);
+}
+.snare-pad.active {
+  background: rgb(130, 114, 223);
+}
+.hihat-pad.active {
+  background: rgb(207, 114, 192);
+}
 .hihat,
 .kick,
 .snare {
@@ -51,6 +59,40 @@ svg {
   align-items: center;
   justify-content: center;
 }
-.control {
+.controls {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  margin: 0rem 2rem;
+}
+
+.controls button {
+  padding: 1rem;
+  border: none;
+  background: rgb(100, 100, 100);
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.pad {
+  transition: all 0.5s ease;
+}
+
+.play {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  background: rgb(100, 100, 100);
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 3rem;
+}
+
+select {
+  padding: 1rem;
+  font-size: 1rem;
+  margin-left: 1rem;
 }
